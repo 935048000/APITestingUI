@@ -27,59 +27,10 @@ module.exports = {
           '^/api': ''
         }
       },
-      '/ApiurlStorehouse': {     //这里最好有一个 /
-        target: 'http://114.55.126.232:8085',  // 后台接口域名
-        changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/ApiurlStorehouse': ''
-        }
-      },
-      '/ApiUrls': {     //这里最好有一个 /
-        target: 'http://114.55.126.232:8082',  // 后台接口域名
-        changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/ApiUrls': ''
-        }
-      },
-      '/ApiUrlMember': {     //这里最好有一个 /
-        target: 'http://115.29.228.150:8626',  // 后台接口域名
-        changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/ApiUrlMember': ''
-        }
-      },
-      '/SecondApiUrlMember': {     //这里最好有一个 /
-        target: 'http://114.55.126.232:8087',  // 后台接口域名
-        changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/SecondApiUrlMember': ''
-        }
-      },
-      '/TotalIntegral': {     //这里最好有一个 /
-        target: 'https://practice.jifen360.com',  // 后台接口域名
-        changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/TotalIntegral': ''
-        }
-      },
-      '/testApi': {     //这里最好有一个 /
-        target: 'http://10.10.67.254:8094',  // 后台接口域名
-        changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/testApi': ''
-        }
-      },
-      '/Gxpay': {     //这里最好有一个 /
-        target: 'http://114.55.126.232:8086',  // 后台接口域名
-        changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/Gxpay': ''
-        }
-      },
     },
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
-    port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    port: 8091, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
