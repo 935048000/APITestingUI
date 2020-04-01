@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a988046b-2ce4-4f28-9339-09b327416763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/view/ReportFormsCentre/showAllHostService.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestCase.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestResult.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/BillDetailTabulation/BillDetailTabulation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/BillDetailTabulationRetail.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/DataReportDay.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/DataReportM.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/InventoryStatement.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/OrderCouponDetail.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/SalesvolumesummaryRetail.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/SupplierSalesStatement_2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/salesPerformance.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/shopstonedailyreport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/shopstonehourlyreport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/shopstonemonthreport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/theoreticalinventory_v2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsLinkFelativeMonth/ReportFormsLinkFelativeMonth.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsLinkFelativeWeek/ReportFormsLinkFelativeWeek.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/alllist/alllist.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/business/business.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/unpaid/unpaid.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/showAllHostService.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ReportFormsCentre/showAllHostService.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestCase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestCase.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestResult.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestResult.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,26 +39,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/index/index.vue">
+        <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showTestResult.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
-                <element signature="n#style#0;n#el-header#0;n#el-container#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showAllHostService.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="205" selection-end-column="5" />
+            <state relative-caret-position="84">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="n#style#0;n#el-button#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#el-table#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -94,26 +71,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showTestCase.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showTestResult.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/retail/alllist/alllist.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="879" selection-start-line="879" selection-end-line="882" selection-end-column="3" />
+            <state relative-caret-position="273">
+              <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#el-button#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-input#0;n#div#0;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-input#0;n#div#1;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-input#0;n#div#2;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-input#0;n#div#3;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,9 +172,9 @@
         <option value="$PROJECT_DIR$/src/view/ReportFormsCentre/theoreticalinventory_v2.vue" />
         <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/view/index/index.vue" />
-        <option value="$PROJECT_DIR$/src/view/ReportFormsCentre/showAllHostService.vue" />
-        <option value="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestCase.vue" />
         <option value="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestResult.vue" />
+        <option value="$PROJECT_DIR$/src/view/ReportFormsCentre/showTestCase.vue" />
+        <option value="$PROJECT_DIR$/src/view/ReportFormsCentre/showAllHostService.vue" />
       </list>
     </option>
   </component>
@@ -294,7 +264,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585732027559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585735075436" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -403,12 +373,12 @@
       <workItem from="1585704227018" duration="685000" />
       <workItem from="1585707680970" duration="561000" />
       <workItem from="1585708816906" duration="2155000" />
-      <workItem from="1585711725276" duration="10954000" />
+      <workItem from="1585711725276" duration="14009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129936000" />
+    <option name="totallyTimeSpent" value="132991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,11 +427,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/storesummary/SupplierSalesStatement_3.vue" />
-    <entry file="file://$PROJECT_DIR$/src/view/storesummary/BillDetailTabulationRetail_v2.vue" />
-    <entry file="file://$PROJECT_DIR$/src/view/storesummary/shopdailyreport.vue" />
-    <entry file="file://$PROJECT_DIR$/src/view/storesummary/financialSummaryDay.vue" />
-    <entry file="file://$PROJECT_DIR$/src/view/storesummary/AuditofPropertyData.vue" />
     <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/DataReportDay.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -603,23 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/index/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#el-header#0;n#el-container#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/home/home.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -641,14 +589,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="n#style#0;n#el-header#0;n#el-container#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/intervalDataReportD/intervalDataComparisonReportDayH.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storehouse/stock/stock.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#el-date-picker#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storehouse/stockdetail/stockdetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1743">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storehouse/warehousequery/warehousedetail.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storehouse/warehousequery/warehousequery.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showTestCase.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#el-button#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#1;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#2;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#3;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showTestResult.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showAllHostService.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="205" selection-end-column="5" />
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="n#style#0;n#el-button#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-table#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -656,20 +677,6 @@
             <element signature="n#style#0;n#el-input#0;n#div#1;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-input#0;n#div#2;n#el-dialog#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showTestCase.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ReportFormsCentre/showTestResult.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
         </state>
       </provider>
     </entry>

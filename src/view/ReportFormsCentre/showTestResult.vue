@@ -4,13 +4,22 @@
     <div class="table-box" style="height: 40px;">
       <!--<el-date-picker-->
       <!--v-model="value1"-->
-      <!--type="daterange"-->
+      <!--type="datetimerange"-->
       <!--range-separator="至"-->
-      <!--value-format="yyyy-MM-dd"-->
+      <!--value-format="yyyy-MM-dd HH:mm:ss"-->
       <!--start-placeholder="必选开始日期"-->
       <!--end-placeholder="必选结束日期"-->
       <!--&gt;</el-date-picker>-->
-      <el-button type="primary" @click="searchs">查询</el-button>
+      <el-date-picker
+        v-model="value1"
+        type="datetimerange"
+        value-format="yyyy-MM-dd HH:mm:ss"
+        range-separator="至"
+        start-placeholder="开始日期"
+        end-placeholder="结束日期">
+      </el-date-picker>
+      <el-button type="primary" @click="dateSearchs">查询</el-button>
+      <el-button type="primary" @click="searchs">刷新</el-button>
       <el-button type="success" class="daochu" @click="exportExcel">导出</el-button>
     </div>
 
@@ -61,6 +70,31 @@
         _self.axios
         // 请求接口
           .post(_self.ApiUrlData + "/testing/showTestResult", formData1)
+          .then(response => {
+            if (response.data.errcode == "0") {
+              console.log(response);
+              _self.tableData = response.data.data.data;
+            } else {
+              _self.$message.error("数据找不到啦，请刷新重试");
+            }
+            console.log(response.data.data.data);
+          })
+          .catch(function(error) {
+            // console.log(error);
+            _self.$message.error("响应时间过长，请重试11111");
+          });
+      },
+      dateSearchs() {
+        let _self = this;
+        console.log(_self.value1);
+        let formData1 = new FormData();
+        // 传的参数
+        formData1.append("startDate", _self.value1[0]);
+        formData1.append("stopDate", _self.value1[1]);
+        console.log(formData1);
+        _self.axios
+        // 请求接口
+          .post(_self.ApiUrlData + "/testing/showAppointTestResult", formData1)
           .then(response => {
             if (response.data.errcode == "0") {
               console.log(response);

@@ -2,18 +2,10 @@
 <template>
   <div class="app-contion">
     <div class="table-box" style="height: 40px;">
-      <!--<el-date-picker-->
-        <!--v-model="value1"-->
-        <!--type="daterange"-->
-        <!--range-separator="至"-->
-        <!--value-format="yyyy-MM-dd"-->
-        <!--start-placeholder="必选开始日期"-->
-        <!--end-placeholder="必选结束日期"-->
-      <!--&gt;</el-date-picker>-->
+
       <el-button type="primary" @click="searchs">查询</el-button>
-      <!--<div class="addlist">-->
-        <el-button type="success" style="padding: 12px 20px;" @click="add">新增测试服务</el-button>
-      <!--</div>-->
+      <el-button type="primary" @click="searchs">刷新</el-button>
+      <el-button type="success" style="padding: 12px 20px;" @click="add">新增测试服务</el-button>
       <el-button type="success" class="daochu" @click="exportExcel">导出</el-button>
     </div>
 
