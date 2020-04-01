@@ -13,30 +13,13 @@
         <i class="el-icon-setting"></i>	
         	测试后台
         </el-menu-item>
-      <!--<el-submenu index="1">-->
-        <!--<template slot="title"><i class="el-icon-tickets"></i>订单管理</template>-->
-        <!--<el-menu-item-group>-->
-          <el-menu-item index="todaylist">今日订单</el-menu-item>
-						<!--<el-menu-item index="unpaid">未支付订单</el-menu-item>-->
-          <!--<el-menu-item index="alllist">全部订单</el-menu-item>-->
-				 <!--</el-menu-item-group>-->
-       <!--</el-submenu>-->
-      <!--<el-submenu index="2">-->
-        <!--<template slot="title"><i class="el-icon-menu"></i>商家端点餐系统</template>-->
-        <!--<el-menu-item-group>-->
-           <!--<el-menu-item index="business">商家点餐</el-menu-item>-->
-        <!--</el-menu-item-group>-->
-      
-       <!--</el-submenu>-->
-      <!--<el-submenu index="3">
-        <template slot="title"><i class="el-icon-setting"></i>导航三</template>
-        <el-menu-item-group>
-        
-          <el-menu-item index="3-1">选项1</el-menu-item>
-          <el-menu-item index="3-2">选项2</el-menu-item>
-        </el-menu-item-group>
-       
-      </el-submenu>-->
+
+          <!--<el-menu-item index="todaylist">模板</el-menu-item>-->
+      <el-menu-item index="showAllHostService" >测试服务列表</el-menu-item>
+      <el-menu-item index="showTestCase">测试用例列表</el-menu-item>
+      <el-menu-item index="showTestResult">测试记录列表</el-menu-item>
+
+
     </el-menu>
   </el-aside>
   <!--右侧-->

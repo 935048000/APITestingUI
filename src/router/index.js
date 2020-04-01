@@ -36,6 +36,28 @@ export default new Router({
       name: 'todaylist',
       component: () => import('@/view/todaylist/todaylist')
     },
+        {
+          path: '/showAllHostService',
+          name: 'showAllHostService',
+          component: () => import('@/view/ReportFormsCentre/showAllHostService')
+        },
+        {
+          path: '/showTestCase',
+          name: 'showTestCase',
+          component: () => import('@/view/ReportFormsCentre/showTestCase')
+        },
+        {
+          path: '/showTestResult',
+          name: 'showTestResult',
+          component: () => import('@/view/ReportFormsCentre/showTestResult')
+        },
+
+
+
+
+
+
+
       ]
     }
   ]
