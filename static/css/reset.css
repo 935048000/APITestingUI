@@ -69,7 +69,4 @@ html { overflow-y: scroll; }
 .clearfix:before,
 .clearfix:after {  display: table;  line-height: 0;  content: "";  }
 .clearfix:after {  clear: both;  }
-table {
-  border-spacing: 0;
-  border-collapse:collapse;/* 如果值为collapse，则element表格下方会出现滚动条*/
-}
+

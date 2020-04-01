@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2019-12-25 16:07:52
- * @LastEditTime : 2019-12-27 10:34:52
- * @LastEditors  : Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \ds-frame-ui\yewuzhongtai\config\index.js
- */
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -19,15 +11,6 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
 
-    proxyTable: {
-      '/api': {     //这里最好有一个 /
-        target: 'http://dc.daisha.com.cn:8094',  // 后台接口域名
-        changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/api': ''
-        }
-      },
-    },
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 8091, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
@@ -36,7 +19,7 @@ module.exports = {
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-
+    
     /**
      * Source Maps
      */
@@ -53,22 +36,19 @@ module.exports = {
   },
 
   build: {
-    // 添加test pre prod 三处环境的配制
-    prodEnv: require('./prod.env'),
-    testEnv: require('./test.env'),
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: ' ./',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps
      */
 
-    productionSourceMap: false,
+    productionSourceMap: true,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
 
@@ -76,7 +56,7 @@ module.exports = {
     // Surge or Netlify already gzip all static assets for you.
     // Before setting to `true`, make sure to:
     // npm install --save-dev compression-webpack-plugin
-    productionGzip: true,
+    productionGzip: false,
     productionGzipExtensions: ['js', 'css'],
 
     // Run the build command with an extra argument to

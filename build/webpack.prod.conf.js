@@ -11,16 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
-console.log(process.env.EVN_CONFIG);
-let env
-if(process.env.EVN_CONFIG === 'test'){
-  env = require('../config/test.env')
-}else if(process.env.EVN_CONFIG === 'prod'){
-  env = require('../config/prod.env')
-}else if(process.env.EVN_CONFIG === 'old'){
-  env = require('../config/old.env')
-}
-
+const env = require('../config/prod.env')
 
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -133,8 +124,7 @@ if (config.build.productionGzip) {
 
   webpackConfig.plugins.push(
     new CompressionWebpackPlugin({
-      // asset: '[path].gz[query]',
-        filename: '[path].gz[query]',
+      asset: '[path].gz[query]',
       algorithm: 'gzip',
       test: new RegExp(
         '\\.(' +
