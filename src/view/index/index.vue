@@ -18,7 +18,7 @@
       <el-menu-item index="showAllHostService" >测试服务列表</el-menu-item>
       <el-menu-item index="showTestCase">测试用例列表</el-menu-item>
       <el-menu-item index="showTestResult">测试记录列表</el-menu-item>
-
+      <el-menu-item index="exeTestCase">执行测试用例</el-menu-item>
 
     </el-menu>
   </el-aside>

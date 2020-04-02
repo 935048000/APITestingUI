@@ -51,7 +51,11 @@ export default new Router({
           name: 'showTestResult',
           component: () => import('@/view/ReportFormsCentre/showTestResult')
         },
-
+        {
+          path: '/exeTestCase',
+          name: 'exeTestCase',
+          component: () => import('@/view/ReportFormsCentre/exeTestCase')
+        },
 
 
 
