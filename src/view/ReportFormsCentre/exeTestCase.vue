@@ -125,14 +125,14 @@
                   this.$notify({
                     title: "提示",
                     message: "批量执行成功",
-                    duration: 0
+                    duration: 1000
                   });
                 } else {
                   _self.$notify({
                     title: "警告",
                     message: response.data.data.msg,
                     type: "warning",
-                    duration: 0
+                    duration: 3000
                   });
                 }
               })
