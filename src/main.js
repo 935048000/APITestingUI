@@ -22,12 +22,8 @@ axios.defaults.withCredentials = true
 Vue.use(ElementUI);
 Vue.config.productionTip = false
 // 定义域名
-const ApiUrl = 'http://dc.daisha.com.cn:8094';
-const ApiUrls = 'https://catering.daisha.com.cn:443';
-const ApiUrlData = 'http://127.0.0.1:8090';
+const ApiUrlData = 'http://49.235.241.182:8090';
 //挂载域名
-Vue.prototype.ApiUrl = ApiUrl;
-Vue.prototype.ApiUrls = ApiUrls;
 Vue.prototype.ApiUrlData = ApiUrlData;
 /* eslint-disable no-new */
 new Vue({

@@ -3,7 +3,7 @@
   	
 <!--登陆表单-->
 <el-form :model="loginForm" status-icon :rules="rules" ref="loginForm"  class="demo-ruleForm">
-	<h1 class="title">业务中台</h1>
+	<h1 class="title">测试后台登录</h1>
 	
 	<el-form-item  prop="username">
     <el-input type="text" v-model="loginForm.username" placeholder="用户名" autocomplete="off"></el-input>
@@ -48,42 +48,26 @@ export default {
       };
     },
     methods: {
-      submitForm(formName) {
-        this.$refs[formName].validate((valid) => {
-          if (valid) {
-          	let _self=this;
-            //发送请求
-						
-						let formData = new FormData();
-							formData.append('account', _self.loginForm.username);
-							formData.append('password',_self.loginForm.password);
-							this.axios.post(_self.ApiUrlData+'/login',formData).then(response=>{
-						if(response.data.errcode=='0'){
-								_self.loading=true;
-								   	//把当前用户数据存入state
-										_self.$router.push('/')
-								     		_self.$store.commit('SAVE_USERINFO',"test")
-								     		_self.$message({
-								   type: 'success',
-								   message: '登录成功'
-								 });
-								 //跳转到首页
-							}	else{	
-								     		_self.$message({  
-								   type: 'error',
-								   message: '用户名密码错误'
-								 });
-								     	}
-							//Cookies.set('token', response.data.token);
-						　//console.log(Cookies.get('JSESSIONID'))
-       
-            })
-          } else {
-            console.log('error submit!!');
-            return false;
-          }
-        });
-      },
+submitForm(formName) {
+  this.$refs[formName].validate((valid) => {
+    if (valid) {
+      let _self=this;
+      let formData = new FormData();
+        formData.append('account', _self.loginForm.username);
+        formData.append('password',_self.loginForm.password);
+        this.axios.post(_self.ApiUrlData+'/login',formData).then(response=>{
+      if(response.data.errcode=='0'){
+          _self.loading=true;
+         _self.$router.push('/')
+         _self.$store.commit('SAVE_USERINFO',"test")
+         _self.$message({type: 'success',message: '登录成功'
+         });
+        }	else{_self.$message({type: 'error',message: '用户名密码错误'});}
+      })
+    } else {console.log('error submit!!');
+      return false;}
+  });
+},
 			loginindex(){
  				let _self=this;
 			if(_self.$store.state.userinfo==""||_self.$store.state.userinfo==null){

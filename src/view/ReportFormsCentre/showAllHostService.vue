@@ -99,6 +99,39 @@
     },
 
     methods: {
+      exportExcel() {
+        require.ensure([], () => {
+          const { export_json_to_excel } = require("../../vendor/Export2Excel");
+          const tHeader = [
+            "测试服务ID",
+            "测试服务主机",
+            "测试服务端口",
+            "测试服务说明",
+            "测试服务状态"
+          ];
+          // 上面设置Excel的表格第一行的标题
+          const filterVal = [
+            "id",
+            "host",
+            "port",
+            "explain",
+            "state"
+          ];
+          // 上面的index、nickName、name是tableData里对象的属性
+          const list = this.tableData; //把data里的tableData存到list
+          const data = this.formatJson(filterVal, list);
+          var dayTemp = new Date();
+          dayTemp.setTime(dayTemp.getTime());
+          var excelFlieName =
+            dayTemp.getFullYear() +
+            "-" +
+            (dayTemp.getMonth() + 1) +
+            "-" +
+            dayTemp.getDate() +
+            "测试用例";
+          export_json_to_excel(tHeader, data, excelFlieName);
+        });
+      },
       formatJson(filterVal, jsonData) {
         return jsonData.map(v => filterVal.map(j => v[j]));
       },

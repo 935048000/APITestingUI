@@ -54,6 +54,45 @@
     },
 
     methods: {
+      exportExcel() {
+        require.ensure([], () => {
+          const { export_json_to_excel } = require("../../vendor/Export2Excel");
+          const tHeader = [
+            "测试结果ID",
+            "测试单号",
+            "测试用户名",
+            "测试用例ID",
+            "测试用例返回数据",
+            "测试用例返回码",
+            "测试次数",
+            "测试时间"
+          ];
+          // 上面设置Excel的表格第一行的标题
+          const filterVal = [
+            "id",
+            "test_code",
+            "test_username",
+            "testcase_id",
+            "testcase_result",
+            "testcase_recode",
+            "testcase_count",
+            "create_at"
+          ];
+          // 上面的index、nickName、name是tableData里对象的属性
+          const list = this.tableData; //把data里的tableData存到list
+          const data = this.formatJson(filterVal, list);
+          var dayTemp = new Date();
+          dayTemp.setTime(dayTemp.getTime());
+          var excelFlieName =
+            dayTemp.getFullYear() +
+            "-" +
+            (dayTemp.getMonth() + 1) +
+            "-" +
+            dayTemp.getDate() +
+            "测试结果";
+          export_json_to_excel(tHeader, data, excelFlieName);
+        });
+      },
       formatJson(filterVal, jsonData) {
         return jsonData.map(v => filterVal.map(j => v[j]));
       },
