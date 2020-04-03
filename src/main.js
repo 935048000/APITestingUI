@@ -22,7 +22,8 @@ axios.defaults.withCredentials = true
 Vue.use(ElementUI);
 Vue.config.productionTip = false
 // 定义域名
-const ApiUrlData = 'http://49.235.241.182:8090';
+// const ApiUrlData = 'http://49.235.241.182:8090';
+const ApiUrlData = 'http://127.0.0.1:8090';
 //挂载域名
 Vue.prototype.ApiUrlData = ApiUrlData;
 /* eslint-disable no-new */

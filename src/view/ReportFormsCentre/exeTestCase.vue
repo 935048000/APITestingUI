@@ -45,7 +45,10 @@
 <script>
   import { mapState } from "vuex";
   export default {
-
+    computed: {
+      ...mapState({
+        username: state => state.userinfo
+      })},
     data() {
       return {
         tableData: [],
@@ -68,19 +71,15 @@
         let formData = new FormData();
         console.log(_self.tableData[index]);
         formData.append('id', _self.tableData[index].id);
-        // formData.append('url', tableData[index].t_url);
-        // formData.append('requests_data', tableData[index].t_requests_data);
-        // formData.append('result', tableData[index].t_result);
-        // formData.append('host_id', tableData[index].t_host_id);
+        formData.append('username', _self.username);
         _self.axios.post(_self.ApiUrlData + "/testing/exeTestCase", formData).then(response => {
           if (response.data.errcode == '0') {
             _self.dialogVisible2 = false
-            console.log("执行成功")
-            _self.$message.error('执行成功');
+            _self.$message.info('执行成功');
             _self.searchs()
 
           } else {
-            _self.$message.error('执行成功');
+            _self.$message.error('执行失败');
           }
         }).catch(function(error) {
           _self.$message.error('数据响应时间过长，请重试');
@@ -106,7 +105,7 @@
             }
             var listbox = {
               list: tableData2,
-              warehouseCode: _self.wareblurcode,
+              username: _self.username,
               // userId: _self.id
             };
             _self.axios
